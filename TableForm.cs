@@ -17,7 +17,7 @@ namespace TableEditorMDI
 
             Controls.Add(grid);
             var menu = new MenuStrip();
-            var файл = new ToolStripMenuItem("Файл");
+            var файл = new ToolStripMenuItem("Действие");
             var сохранить = new ToolStripMenuItem("Сохранить", null, Save_Click);
             var открыть = new ToolStripMenuItem("Открыть", null, Open_Click);
             файл.DropDownItems.AddRange(new[] { сохранить, открыть });
